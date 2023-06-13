@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!-- GPS 관련 -->
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyStudyApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".IntroActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Ex3AniActivity"></activity>
+        <activity android:name=".Ex1LoginActivity"></activity>
+        <activity android:name=".Ex1JoinActivity"></activity>
+        <activity android:name=".Ex2CalcActivity"></activity>
+        <activity android:name=".TestActivity"></activity>
+        <activity android:name=".Ex4GifActivity"></activity>
+        <activity android:name=".Ex5DataActivity"></activity>
+        <activity android:name=".Ex5NewActivity"></activity>
+        <activity android:name=".Ex1InfoActivity"></activity>
+        <activity android:name=".Ex6SpinnerActivity"></activity>
+        <activity android:name=".Ex7SwitchActivity"></activity>
+        <activity android:name=".Ex8WebViewActivity"></activity>
+        <activity android:name=".Ex9VideoViewActivity"></activity>
+        <activity android:name=".Ex10MediaActivity"></activity>
+        <activity android:name=".Ex11GalleryViewEx"></activity>
+        <activity android:name=".Ex12GameActivity"></activity>
+        <activity android:name=".Ex12SoccerGameEx"></activity>
+        <activity android:name=".Ex13HadlerActivity"></activity>
+        <activity android:name=".Ex14SharedPreferencesActivity"></activity>
+        <activity android:name=".Ex15SharedPreferences2Activity"></activity>
+        <activity android:name=".Ex16FrameLayoutActivity"></activity>
+        <activity android:name=".Ex17PhoneCreate1Activity"></activity>
+        <activity android:name=".Ex18ListViewActivity"></activity>
+        <activity android:name=".Ex19PhoneCreate2ListView"></activity>
+        <activity android:name=".Ex20FriendsListActivity"></activity>
+        <activity android:name=".Ex20FriendAddActivity"></activity>
+        <activity android:name=".Ex20FriendEditActivity"></activity>
+        <activity android:name=".Ex20FriendDelActivity"></activity>
+        <activity android:name=".Ex21GpsMapEx"></activity>
+        <activity android:name=".GoogleMapSearchActivity"></activity>
+        <activity android:name=".Ex22DDayActivity"/>
+        <activity android:name=".Ex23TimerEx"/>
+        <activity android:name=".Ex24SQLiteExLogin"></activity>
+        <activity android:name=".Ex24SQLiteExJoin"></activity>
+        <activity android:name=".Ex24JoinOkActivity"></activity>
+        <activity android:name=".Ex24SQLiteMainActivity"></activity>
+        <activity android:name=".Ex25FriendsListActivity"></activity>
+        <activity android:name=".Ex25FriendAddActivity"></activity>
+        <activity android:name=".Ex25FriendEditActivity"></activity>
+        <activity android:name=".Ex25FriendDelActivity"></activity>
+        <activity android:name=".Ex26RecyclerViewEx"></activity>
+        <activity android:name=".Ex27RecyclerViewEx2"></activity>
+        <activity android:name=".Ex28RecyclerViewFriends"></activity>
+        <activity android:name=".Ex28FriendAddActivity"></activity>
+        <activity android:name=".Ex28FriendDelActivity"></activity>
+        <activity android:name=".Ex28FriendEditActivity"></activity>
+        <activity android:name=".Ex29FragmentLayout"></activity>
+        <activity android:name=".Ex30Viewpager2Ex"></activity>
+        <activity android:name=".Ex31ImageLayoutEx"></activity>
+        <activity android:name=".Ex32webPhpMain"></activity>
+        <activity android:name=".Ex32webPhpLogin"></activity>
+        <activity android:name=".Ex32webPhpJoin"></activity>
+
+    </application>
+
+</manifest>
